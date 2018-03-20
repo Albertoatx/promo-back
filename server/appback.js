@@ -36,6 +36,7 @@ app.use(function(req, res, next) {
   //res.header('Access-Control-Allow-Origin', 'http://127.0.0.1:8080'); //servidor app Angular
 
     var allowedOrigins = ['http://127.0.0.1:8080',
+                          'http://localhost:8080',
                           'http://192.168.0.13:8080', 
                           'http://192.168.56.1:8080', 
                           'http://192.168.18.1:8080', 
